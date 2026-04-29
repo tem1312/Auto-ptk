@@ -1,0 +1,7 @@
+{
+  "name": "nuclei-scanner",
+  "image": "projectdiscovery/nuclei",
+  "cli": "sh -c \"nuclei -update-templates && nuclei -u http://{TARGET} -jsonl -severity info,low,medium,high,critical -retries 2 -timeout 10 -ratelimit 50 -bulksize 25 -c 50\"",
+  "parser": "nuclei-jsonl",
+  "tags": ["vuln", "http", "web", "nuclei"]
+}

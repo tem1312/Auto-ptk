@@ -1,0 +1,7 @@
+{
+  "name": "nmap-vuln",
+  "image": "instrumentisto/nmap",
+  "cli": "-sV --script vuln {TARGET}",
+  "parser": "nmap-vuln-cves",
+  "tags": ["vuln", "host", "cve", "nmap", "web"]
+}

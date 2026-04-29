@@ -1,0 +1,7 @@
+{
+  "name": "nmap-top-tcp",
+  "image": "instrumentisto/nmap",
+  "cli": "-oX - -sV -sC --top-ports 1000 {TARGET}",
+  "parser": "nmap-xml",
+  "tags": ["recon", "tcp", "nmap", "quick-scan"]
+}

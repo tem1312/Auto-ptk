@@ -1,0 +1,7 @@
+{
+  "name": "whatweb-fingerprint",
+  "image": "secsi/whatweb",
+  "cli": "-a 3 --log-json=- http://{TARGET}",
+  "parser": "whatweb-json",
+  "tags": ["http", "web", "fingerprint", "whatweb"]
+}

@@ -1,0 +1,64 @@
+{
+    "quick": [
+        "rustscan-fast",
+        "nmap-top-tcp"
+    ],
+
+    "recon": [
+        "rustscan-fast",
+        "nmap-top-tcp",
+        "nmap-full",
+        "amass-enum",
+        "dnsrecon"
+    ],
+
+    "web": [
+        "nmap-top-tcp",
+        "whatweb-fingerprint",
+        "ffuf-dir",
+        "nikto-web-scan",
+        "nuclei-scanner",
+        "nmap-vuln"
+    ],
+
+    "web-deep": [
+        "nmap-top-tcp",
+        "whatweb-fingerprint",
+        "ffuf-dir",
+        "nikto-web-scan",
+        "wpscan-wordpress",
+        "nuclei-scanner",
+        "nmap-vuln",
+        "sslscan"
+    ],
+
+    "smb": [
+        "nmap-top-tcp",
+        "nmap-full",
+        "enum4linux-ng",
+        "smbmap",
+        "nmap-vuln"
+    ],
+
+    "cve": [
+        "nmap-vuln",
+        "nuclei-scanner"
+    ],
+
+    "full": [
+        "rustscan-fast",
+        "nmap-top-tcp",
+        "nmap-full",
+        "amass-enum",
+        "dnsrecon",
+        "whatweb-fingerprint",
+        "ffuf-dir",
+        "nikto-web-scan",
+        "wpscan-wordpress",
+        "nuclei-scanner",
+        "nmap-vuln",
+        "sslscan",
+        "enum4linux-ng",
+        "smbmap"
+    ]
+}

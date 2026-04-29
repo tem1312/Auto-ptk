@@ -1,0 +1,7 @@
+{
+  "name": "dnsrecon",
+  "image": "bettercyber/dnsrecon",
+  "cli": "sh -lc \"dnsrecon -d {TARGET} -t std -c /tmp/dnsrecon.csv && cat /tmp/dnsrecon.csv\"",
+  "parser": "dnsrecon-csv",
+  "tags": ["recon", "dns", "domain-only"]
+}

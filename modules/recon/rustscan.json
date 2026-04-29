@@ -1,0 +1,7 @@
+{
+  "name": "rustscan-fast",
+  "image": "rustscan/rustscan",
+  "cli": "--ulimit 5000 -a {TARGET} -- -oX - -sV -sC",
+  "parser": "nmap-xml",
+  "tags": ["recon", "tcp", "port-scan", "fast"]
+}

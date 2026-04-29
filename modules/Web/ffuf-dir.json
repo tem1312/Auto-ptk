@@ -1,0 +1,7 @@
+{
+  "name": "ffuf-dir",
+  "image": "ghcr.io/ffuf/ffuf",
+  "cli": "-u http://{TARGET}/FUZZ -w /wordlists/dirb/common.txt -mc all -of json",
+  "parser": "ffuf-json",
+  "tags": ["http", "web", "content", "dir"]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "enum4linux-ng",
+  "image": "cytopia/enum4linux-ng",
+  "cli": "-A {TARGET}",
+  "parser": "enum4linux-text",
+  "tags": ["smb", "netbios", "recon"]
+}

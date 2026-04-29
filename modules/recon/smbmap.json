@@ -1,0 +1,7 @@
+{
+  "name": "smbmap",
+  "image": "rflathers/smbmap",
+  "cli": "-H {TARGET}",
+  "parser": "smbmap-text",
+  "tags": ["smb", "netbios", "shares"]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "nmap-full",
+  "image": "instrumentisto/nmap",
+  "cli": "-oX - -sV -sC -p- -A {TARGET}",
+  "parser": "nmap-xml",
+  "tags": ["recon", "tcp", "nmap", "full-scan"]
+}

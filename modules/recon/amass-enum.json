@@ -1,0 +1,7 @@
+{
+  "name": "amass-enum",
+  "image": "caffix/amass",
+  "cli": "sh -lc \"amass enum -d {TARGET} -json /tmp/amass.json && cat /tmp/amass.json\"",
+  "parser": "amass-json",
+  "tags": ["recon", "dns", "subdomains", "domain-only"]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "wpscan-wordpress",
+  "image": "wpscanteam/wpscan",
+  "cli": "--url http://{TARGET} --enumerate vp,vt,u --format json --output -",
+  "parser": "wpscan-json",
+  "tags": ["http", "web", "wordpress", "vuln", "wpscan"]
+}

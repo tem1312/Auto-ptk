@@ -1,0 +1,7 @@
+{
+  "name": "nikto-web-scan",
+  "image": "secsi/nikto",
+  "cli": "-h http://{TARGET} -Format json -output -",
+  "parser": "nikto-json",
+  "tags": ["http", "web", "nikto", "vuln"]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "sslscan",
+  "image": "rbsec/sslscan",
+  "cli": "{TARGET}:443",
+  "parser": "sslscan-text",
+  "tags": ["http", "web", "ssl", "tls"]
+}
